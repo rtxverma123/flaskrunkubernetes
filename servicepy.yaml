@@ -9,4 +9,4 @@ spec:
       - protocol: TCP
         port: 30017
         targetPort: 30017
-type: LoadBalancer
+
