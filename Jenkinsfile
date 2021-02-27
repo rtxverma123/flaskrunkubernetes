@@ -8,7 +8,7 @@ node {
     }
     stage('Docker-push'){
         docker.withRegistry('https://registry.hub.docker.com','Docker'){
-            def customImage = docker.build('rtxverma123/jenkinskubernetesworkingflask')
+            def customImage = docker.build('rtxverma123/jenkinsdeployments')
             customImage.push()
         }
     }
