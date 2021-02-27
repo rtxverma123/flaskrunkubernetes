@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: rtxverma123/jenkinsnewflaskpush
+        image: rtxverma123/jenkinsdeployments
         ports:
         - containerPort: 30017
