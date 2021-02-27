@@ -4,5 +4,5 @@ RUN pip install Flask
 RUN pip install flask_restful
 RUN python3 -m venv venv
 RUN  export FLASK_APP=main.py
-EXPOSE 3333
+EXPOSE 5001
 CMD ["flask run","./main.py"]
