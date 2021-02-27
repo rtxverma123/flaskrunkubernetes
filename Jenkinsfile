@@ -4,7 +4,7 @@ node {
         
     }
     stage('Docker-build'){
-        sh 'docker build '
+        sh 'docker build rtxverma123/jenkinsnewflaskpush .'
     }
     stage('Docker-push'){
         docker.withRegistry('https://registry.hub.docker.com','Docker'){
