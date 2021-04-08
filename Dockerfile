@@ -1,5 +1,5 @@
 FROM python:latest
-ADD . /app
+COPY . /app
 WORKDIR /app/
 RUN pip install Flask
 RUN pip install flask_restful
