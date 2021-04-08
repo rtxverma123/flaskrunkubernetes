@@ -1,6 +1,6 @@
 FROM python:latest
 COPY . /app
-WORKDIR /app/
+WORKDIR /app
 RUN pip install Flask
 RUN pip install flask_restful
 RUN python3 -m venv venv
